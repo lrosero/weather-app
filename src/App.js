@@ -1,13 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 import WeatherLocation from './components/WeatherLocation';
 import './App.css';
 
-function App() {
-  return (
+class App extends Component {
+render(){
+	return (
     <div className="App">
-      <WeatherLocation/>
+      <WeatherLocation></WeatherLocation>
     </div>
   );
 }
-
+}
 export default App;
